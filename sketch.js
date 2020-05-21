@@ -16,5 +16,6 @@ function draw() {
     rotate(angle);
     ellipse(i*20+20, 0, 20+i, 20+i);
   }
+  pop();
   angle+= 0.1;
 }
